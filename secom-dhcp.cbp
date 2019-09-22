@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="secom-dhcp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="./secom-dhcp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename=".hgignore" />
+		<Unit filename=".htaccess" />
+		<Unit filename="application/commit_changes.php" />
+		<Unit filename="application/config/autoload.php" />
+		<Unit filename="application/config/config.php" />
+		<Unit filename="application/config/database.php" />
+		<Unit filename="application/config/routes.php" />
+		<Unit filename="application/controllers/appdata.php" />
+		<Unit filename="application/controllers/home.php" />
+		<Unit filename="application/controllers/hookbox.php" />
+		<Unit filename="application/controllers/page.php" />
+		<Unit filename="application/controllers/support.php" />
+		<Unit filename="application/fixtures.sql" />
+		<Unit filename="application/helpers/http_helper.php" />
+		<Unit filename="application/helpers/ip_helper.php" />
+		<Unit filename="application/helpers/json_helper.php" />
+		<Unit filename="application/models/DbChanged.php" />
+		<Unit filename="application/models/FixedHost.php" />
+		<Unit filename="application/models/Lease.php" />
+		<Unit filename="application/models/Network.php" />
+		<Unit filename="application/models/Pool.php" />
+		<Unit filename="application/models/Subnet.php" />
+		<Unit filename="application/views/config_fixed.php" />
+		<Unit filename="application/views/config_network.php" />
+		<Unit filename="application/views/config_pool.php" />
+		<Unit filename="application/views/config_server.php" />
+		<Unit filename="application/views/config_subnet.php" />
+		<Unit filename="application/views/dlg_syslog.php" />
+		<Unit filename="application/views/dlg_task.php" />
+		<Unit filename="application/views/history.php" />
+		<Unit filename="application/views/home.php" />
+		<Unit filename="application/views/syslog.php" />
+		<Unit filename="cli-config.php" />
+		<Unit filename="dbdump" />
+		<Unit filename="dbdump.bat" />
+		<Unit filename="dbreload" />
+		<Unit filename="dbreload.bat" />
+		<Unit filename="realtime/app.js" />
+		<Unit filename="static/NetworkStore.js" />
+		<Unit filename="static/webapp.js" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
